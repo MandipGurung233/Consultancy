@@ -1,0 +1,346 @@
+
+
+/*blinking animation*/
+.blink{
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    animation: blinkingBackground 2s infinite;
+}
+@keyframes blinkingBackground{
+    100%	        { background-color: rgb(74, 183, 226);}
+}
+
+.header{
+    background:url("/storage/images/aboutBanner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 300px;
+    position: relative;
+}
+
+.slider-text {
+    height: 250px;  
+}
+
+#bann{
+    margin-top: 1rem!important;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+#bann a{
+    color: white;
+}
+
+#bann a:hover{
+    color: pink;
+}
+
+
+
+
+
+
+
+
+.no-gutters {
+    margin-right: 0px;
+    margin-left: 0;
+}
+
+.img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	min-height: 300px;
+}
+
+@media (max-width: 767.98px)
+{.img-2 {
+    height: 200px;
+    margin-bottom: 30px;
+}}
+
+.no-gutters>.col, .no-gutters>[class*="col-"] {
+    padding-right: 0px;
+    padding-left: 0;
+}
+
+@media (min-width: 992px)
+{.wrap-about .heading-section {
+    margin-left: -120px;
+    background: #fff;
+    box-shadow: -20px 5px 14px -15px rgb(0 0 0 / 13%);
+}}
+
+/*end of afterBanner*/
+/*js*/
+/*left side content*/
+
+@media (max-width: 768px)
+{#sec{
+    min-height:470px;
+}}
+
+#sec{
+    padding-top: 20px;
+
+}
+
+#sectxt{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+#sectxt h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.col-10{
+    text-align: center;
+
+}
+
+@media (min-width: 768px)
+{#sectxt{
+    text-align:left !important
+}}
+
+
+/*hover effect*/
+
+.btn:focus{
+    outline:0!important;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+
+.btn{  
+    background-color:#ffffff00;
+    border-bottom: 4px solid;
+    color: grey;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-left:0.4rem;
+    padding-right:0.4rem;
+    margin-bottom: 10px;   
+}
+
+.btn:hover{
+    color:#b4245d;
+    
+}
+
+.btn:hover .sth{
+    color:black!important;
+    font-weight:bold!important;
+}
+
+
+#content{
+    margin-top: 20px;
+    text-align: justify !important;
+}
+
+.as #btnMiss{
+    color:#b4245d;
+}
+
+.as #btnMiss .sth{
+    color:black!important;
+    font-weight:bold!important;
+}
+
+.activeMiss #btnMiss{
+    color:#b4245d;
+}
+
+.activeMiss #btnMiss .sth{
+    color:black!important;
+    font-weight:bold!important;
+}
+
+.activeVis #btnVis{
+    color:#b4245d;
+}
+
+.activeVis #btnVis .sth{
+    color:black!important;
+    font-weight:bold!important;
+}
+
+.activeVal #btnVal{
+    color:#b4245d;
+}
+
+.activeVal #btnVal .sth{
+    color:black!important;
+    font-weight:bold!important;
+}
+
+/*right side content*/
+.secimgs .img-fluid{
+    margin-top: 40px;
+    padding-left: 0px;
+    width: 500px;
+}
+
+
+
+
+
+
+/*About team css*/
+
+/*featured*/
+/*first row*/
+.heading-section{
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.subheading{
+    margin-bottom: 0px;
+    color: #d33e2d;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+.subheading:before{
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    content: '';
+    width: 50px;
+    height: 1px;
+    margin-top: -1px;
+    transform: translateY(-50%);
+    background: #d33e2d;
+}
+
+.subheading:after{
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    content: '';
+    width: 50px;
+    height: 1px;
+    margin-top: -1px;
+    transform: translateY(-50%);
+    background: #d33e2d;
+}
+
+.heading-section h2{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    color: #4f074c;
+}
+
+@media (max-width: 767.98px)
+{.heading-section h2 {
+    font-size: 30px;
+}}
+
+
+
+
+
+
+/*trending*/
+
+.popular-carousel-item{
+    /* min-height: 300px; */
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    padding-bottom: 70px;
+}
+
+#popular-carousel-img2{
+    background-image: url("/storage/images/team1.jfif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    background-size: cover;
+    min-height: 370px;
+    position: relative;
+}
+
+#popular-carousel-img3{
+    background-image: url("/storage/images/mandip.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    background-size: cover;
+    min-height: 370px;
+    position: relative;
+}
+
+#popular-carousel-img4{
+    background-image: url("/storage/images/team3.png") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    background-size: cover;
+    min-height: 370px;
+    position: relative;
+}
+
+#popular-carousel-img5{
+    background-image: url("/storage/images/nirajan.jpg") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    background-size: cover;
+    min-height: 370px;
+    position: relative;
+}
+
+
+
+
+.popular-carousel-details h6{
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-size: 12px;
+    font-weight: 550;
+    text-align: center;
+    margin-top: 5px; 
+}
+
+
+
+.popular-carousel-details{
+    background-color: #b4245e;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.popular-carousel-details h5{
+    font-family: 'Poppins', sans-serif;
+    color:whitesmoke;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px; 
+}
+
+.popular-carousel-details p{   
+    margin-top: 5px;
+    font-size: 11px;
+    color: whitesmoke;
+    text-align: center;  
+    margin-bottom: 0px!important; 
+}
