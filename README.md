@@ -9,6 +9,7 @@
 
 ## About this Project
 Its an website for educational consultancy.
+Do perform seed operation
 
 ## Features
 - Authentication
@@ -18,5 +19,7 @@ Its an website for educational consultancy.
 - Mail notification
 - Functionable contact page
 - Messenger plugins
+- Custom Commands
+- Task scheduling (Delete trashed data automatically after 24 hrs)
 
 
