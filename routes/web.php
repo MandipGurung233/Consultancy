@@ -83,7 +83,7 @@ Route::group(['middleware'=> 'authCheck'],function(){
     Route::get('editBlog/{id}',[blogController::class,'editBlog'])->name('editBlog');
     Route::post('blogUpdate/{id}',[blogController::class,'blogUpdate'])->name('blogUpdate');
 
-    /**Send Mail */
+   
     Route::get('sendMail',[blogController::class,'sendMail'])->name('sendMail');
     Route::post('send_Mail',[blogController::class,'send_Mail'])->name('send_Mail');
 
