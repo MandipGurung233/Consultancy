@@ -20,6 +20,7 @@ Do perform seed operation
 - Functionable contact page
 - Messenger plugins
 - Custom Commands
+- Implementaion of Event and Listeners
 - Task scheduling (Delete trashed data automatically after 24 hrs)
 
 
